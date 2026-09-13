@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Portfolio profesional de José Luis Cañada, estudiante de desarrollo Full Stack"
+    />
+    <meta
+      name="keywords"
+      content="desarrollo web, full stack, HTML, CSS, JavaScript, Python"
+    />
+    <meta name="author" content="José Luis Cañada" />
+
+    <title>José Luis Cañada | Portfolio Full Stack</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header-container">
+        <a href="#inicio" class="logo">JLC</a>
+
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="inicio" class="hero">
+        <div class="container hero-content">
+          <div>
+            <p class="hero-small">Hola, soy</p>
+
+            <h1>José Luis Cañada</h1>
+
+            <h2>Desarrollador Full Stack en formación</h2>
+
+            <p>
+              Actualmente estoy ampliando mis conocimientos en desarrollo web,
+              programación y bases de datos, construyendo proyectos reales con
+              HTML, CSS, JavaScript, Python y otras tecnologías.
+            </p>
+
+            <a href="#proyectos" class="button">Ver proyectos</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOBRE MÍ -->
+      <section id="sobre-mi" class="section">
+        <div class="container">
+          <h2>Sobre mí</h2>
+
+          <p>
+            Soy un profesional con experiencia en gestión, operaciones,
+            desarrollo de negocio y análisis de datos. Actualmente estoy
+            especializándome en desarrollo Full Stack con el objetivo de ampliar
+            mi perfil tecnológico y desarrollar soluciones digitales.
+          </p>
+
+          <p>
+            Me interesa especialmente la combinación entre tecnología,
+            automatización, análisis de datos y desarrollo de aplicaciones.
+          </p>
+        </div>
+      </section>
+
+      <!-- PROYECTOS -->
+      <section id="proyectos" class="section projects-section">
+        <div class="container">
+          <h2>Mis proyectos</h2>
+
+          <div class="projects-grid">
+
+            <article class="project-card">
+              <img
+                src="images/html-css.jpg"
+                alt="Vista previa de proyecto desarrollado con HTML y CSS"
+              />
+
+              <div class="project-content">
+                <h3>Portfolio HTML y CSS</h3>
+
+                <p>
+                  Portfolio personal responsive creado utilizando HTML5
+                  semántico, CSS3, Flexbox y Grid.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                src="images/javascript.jpg"
+                alt="Vista previa de proyecto de programación JavaScript"
+              />
+
+              <div class="project-content">
+                <h3>Ejercicios JavaScript</h3>
+
+                <p>
+                  Colección de ejercicios de JavaScript para trabajar funciones,
+                  arrays, objetos, DOM y programación asíncrona.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                src="images/python.jpg"
+                alt="Vista previa de proyecto realizado con Python"
+              />
+
+              <div class="project-content">
+                <h3>Ejercicios Python</h3>
+
+                <p>
+                  Ejercicios de Python centrados en estructuras de datos,
+                  funciones, programación orientada a objetos y módulos.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                src="images/sql.jpg"
+                alt="Vista previa de proyecto de bases de datos SQL"
+              />
+
+              <div class="project-content">
+                <h3>Consultas SQL</h3>
+
+                <p>
+                  Proyecto de bases de datos utilizando PostgreSQL y consultas
+                  SQL para filtrar, ordenar y analizar información.
+                </p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+      <section id="contacto" class="section contact-section">
+        <div class="container">
+          <h2>Contacto</h2>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Tu nombre"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="correo@ejemplo.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="6"
+                placeholder="Escribe tu mensaje"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="button">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>&copy; 2026 José Luis Cañada. Todos los derechos reservados.</p>
+
+        <div class="social-links">
+          <a href="#" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/jose-luis-canada-gonzalez" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
